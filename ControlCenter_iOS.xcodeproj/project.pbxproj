@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BBC6A2924A4EF3400306BD5 /* ControlCenter_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A2824A4EF3400306BD5 /* ControlCenter_iOSApp.swift */; };
-		7BBC6A2B24A4EF3400306BD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A2A24A4EF3400306BD5 /* ContentView.swift */; };
 		7BBC6A2D24A4EF3600306BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC6A2C24A4EF3600306BD5 /* Assets.xcassets */; };
 		7BBC6A3024A4EF3600306BD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC6A2F24A4EF3600306BD5 /* Preview Assets.xcassets */; };
+		7BBC6A5424A5ABEA00306BD5 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5324A5ABEA00306BD5 /* App.swift */; };
+		7BBC6A5B24A5ABF700306BD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5524A5ABF700306BD5 /* ContentView.swift */; };
+		7BBC6A5C24A5ABF700306BD5 /* FancyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5624A5ABF700306BD5 /* FancyBackground.swift */; };
+		7BBC6A5D24A5ABF700306BD5 /* WirelessControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5724A5ABF700306BD5 /* WirelessControls.swift */; };
+		7BBC6A5E24A5ABF700306BD5 /* ControlBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5824A5ABF700306BD5 /* ControlBackground.swift */; };
+		7BBC6A5F24A5ABF700306BD5 /* DoNotDisturbControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5924A5ABF700306BD5 /* DoNotDisturbControl.swift */; };
+		7BBC6A6024A5ABF700306BD5 /* WirelessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A5A24A5ABF700306BD5 /* WirelessView.swift */; };
+		7BBC6A6224A5ACC500306BD5 /* KeyboardBrightnessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6124A5ACC500306BD5 /* KeyboardBrightnessControl.swift */; };
+		7BBC6A6424A5ACD900306BD5 /* AirPlayControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6324A5ACD900306BD5 /* AirPlayControl.swift */; };
+		7BBC6A6724A5AD3700306BD5 /* DisplayControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6624A5AD3700306BD5 /* DisplayControl.swift */; };
+		7BBC6A6924A5AD5200306BD5 /* SoundControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6824A5AD5200306BD5 /* SoundControl.swift */; };
+		7BBC6A6B24A5AD7300306BD5 /* NowPlayingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6A24A5AD7300306BD5 /* NowPlayingControl.swift */; };
+		7BBC6A6D24A5AD8100306BD5 /* BatteryControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6C24A5AD8100306BD5 /* BatteryControl.swift */; };
+		7BBC6A6F24A5AE4400306BD5 /* LightAndDarkPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC6A6E24A5AE4400306BD5 /* LightAndDarkPreviews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BBC6A2524A4EF3400306BD5 /* ControlCenter_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlCenter_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BBC6A2824A4EF3400306BD5 /* ControlCenter_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenter_iOSApp.swift; sourceTree = "<group>"; };
-		7BBC6A2A24A4EF3400306BD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BBC6A2C24A4EF3600306BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BBC6A2F24A4EF3600306BD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BBC6A3124A4EF3600306BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBC6A5324A5ABEA00306BD5 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = App.swift; path = /Users/sjs/Projects/ControlCenter_iOS/Sources/App.swift; sourceTree = "<absolute>"; };
+		7BBC6A5524A5ABF700306BD5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BBC6A5624A5ABF700306BD5 /* FancyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBackground.swift; sourceTree = "<group>"; };
+		7BBC6A5724A5ABF700306BD5 /* WirelessControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirelessControls.swift; sourceTree = "<group>"; };
+		7BBC6A5824A5ABF700306BD5 /* ControlBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlBackground.swift; sourceTree = "<group>"; };
+		7BBC6A5924A5ABF700306BD5 /* DoNotDisturbControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoNotDisturbControl.swift; sourceTree = "<group>"; };
+		7BBC6A5A24A5ABF700306BD5 /* WirelessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirelessView.swift; sourceTree = "<group>"; };
+		7BBC6A6124A5ACC500306BD5 /* KeyboardBrightnessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBrightnessControl.swift; sourceTree = "<group>"; };
+		7BBC6A6324A5ACD900306BD5 /* AirPlayControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayControl.swift; sourceTree = "<group>"; };
+		7BBC6A6624A5AD3700306BD5 /* DisplayControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayControl.swift; sourceTree = "<group>"; };
+		7BBC6A6824A5AD5200306BD5 /* SoundControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundControl.swift; sourceTree = "<group>"; };
+		7BBC6A6A24A5AD7300306BD5 /* NowPlayingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingControl.swift; sourceTree = "<group>"; };
+		7BBC6A6C24A5AD8100306BD5 /* BatteryControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryControl.swift; sourceTree = "<group>"; };
+		7BBC6A6E24A5AE4400306BD5 /* LightAndDarkPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAndDarkPreviews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +60,8 @@
 		7BBC6A1C24A4EF3400306BD5 = {
 			isa = PBXGroup;
 			children = (
-				7BBC6A2724A4EF3400306BD5 /* ControlCenter_iOS */,
+				7BBC6A4424A5ABBF00306BD5 /* Sources */,
+				7BBC6A4324A5AB7200306BD5 /* Resources */,
 				7BBC6A2624A4EF3400306BD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,24 +74,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BBC6A2724A4EF3400306BD5 /* ControlCenter_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7BBC6A2824A4EF3400306BD5 /* ControlCenter_iOSApp.swift */,
-				7BBC6A2A24A4EF3400306BD5 /* ContentView.swift */,
-				7BBC6A2C24A4EF3600306BD5 /* Assets.xcassets */,
-				7BBC6A3124A4EF3600306BD5 /* Info.plist */,
-				7BBC6A2E24A4EF3600306BD5 /* Preview Content */,
-			);
-			path = ControlCenter_iOS;
-			sourceTree = "<group>";
-		};
 		7BBC6A2E24A4EF3600306BD5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				7BBC6A2F24A4EF3600306BD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BBC6A4324A5AB7200306BD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC6A2C24A4EF3600306BD5 /* Assets.xcassets */,
+				7BBC6A3124A4EF3600306BD5 /* Info.plist */,
+				7BBC6A2E24A4EF3600306BD5 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7BBC6A4424A5ABBF00306BD5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC6A6524A5AD1D00306BD5 /* Controls */,
+				7BBC6A5324A5ABEA00306BD5 /* App.swift */,
+				7BBC6A5524A5ABF700306BD5 /* ContentView.swift */,
+				7BBC6A5824A5ABF700306BD5 /* ControlBackground.swift */,
+				7BBC6A5624A5ABF700306BD5 /* FancyBackground.swift */,
+				7BBC6A6E24A5AE4400306BD5 /* LightAndDarkPreviews.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7BBC6A6524A5AD1D00306BD5 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC6A6324A5ACD900306BD5 /* AirPlayControl.swift */,
+				7BBC6A6C24A5AD8100306BD5 /* BatteryControl.swift */,
+				7BBC6A6624A5AD3700306BD5 /* DisplayControl.swift */,
+				7BBC6A5924A5ABF700306BD5 /* DoNotDisturbControl.swift */,
+				7BBC6A6124A5ACC500306BD5 /* KeyboardBrightnessControl.swift */,
+				7BBC6A6A24A5AD7300306BD5 /* NowPlayingControl.swift */,
+				7BBC6A6824A5AD5200306BD5 /* SoundControl.swift */,
+				7BBC6A5724A5ABF700306BD5 /* WirelessControls.swift */,
+				7BBC6A5A24A5ABF700306BD5 /* WirelessView.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BBC6A2B24A4EF3400306BD5 /* ContentView.swift in Sources */,
-				7BBC6A2924A4EF3400306BD5 /* ControlCenter_iOSApp.swift in Sources */,
+				7BBC6A6D24A5AD8100306BD5 /* BatteryControl.swift in Sources */,
+				7BBC6A6724A5AD3700306BD5 /* DisplayControl.swift in Sources */,
+				7BBC6A5B24A5ABF700306BD5 /* ContentView.swift in Sources */,
+				7BBC6A5424A5ABEA00306BD5 /* App.swift in Sources */,
+				7BBC6A5F24A5ABF700306BD5 /* DoNotDisturbControl.swift in Sources */,
+				7BBC6A6424A5ACD900306BD5 /* AirPlayControl.swift in Sources */,
+				7BBC6A5C24A5ABF700306BD5 /* FancyBackground.swift in Sources */,
+				7BBC6A6F24A5AE4400306BD5 /* LightAndDarkPreviews.swift in Sources */,
+				7BBC6A6024A5ABF700306BD5 /* WirelessView.swift in Sources */,
+				7BBC6A6B24A5AD7300306BD5 /* NowPlayingControl.swift in Sources */,
+				7BBC6A6924A5AD5200306BD5 /* SoundControl.swift in Sources */,
+				7BBC6A6224A5ACC500306BD5 /* KeyboardBrightnessControl.swift in Sources */,
+				7BBC6A5E24A5ABF700306BD5 /* ControlBackground.swift in Sources */,
+				7BBC6A5D24A5ABF700306BD5 /* WirelessControls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +332,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ControlCenter_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = X45WPY5JFZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ControlCenter_iOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +354,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ControlCenter_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = X45WPY5JFZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ControlCenter_iOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
