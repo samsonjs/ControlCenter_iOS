@@ -44,6 +44,7 @@
 		7BBC6A6A24A5AD7300306BD5 /* NowPlayingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingControl.swift; sourceTree = "<group>"; };
 		7BBC6A6C24A5AD8100306BD5 /* BatteryControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryControl.swift; sourceTree = "<group>"; };
 		7BBC6A6E24A5AE4400306BD5 /* LightAndDarkPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAndDarkPreviews.swift; sourceTree = "<group>"; };
+		7BBC6A7024A5B99C00306BD5 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		7BBC6A1C24A4EF3400306BD5 = {
 			isa = PBXGroup;
 			children = (
+				7BBC6A7024A5B99C00306BD5 /* Readme.md */,
 				7BBC6A4424A5ABBF00306BD5 /* Sources */,
 				7BBC6A4324A5AB7200306BD5 /* Resources */,
 				7BBC6A2624A4EF3400306BD5 /* Products */,
